@@ -51,7 +51,7 @@ pipeline {
             // 步骤
             steps{
                 script{
-                    build.Build(buildType,buildShell)
+//                    build.Build(buildType,buildShell)
                     deploy.AnsibleDeploy("${deployHosts}","-m ping")
                     println("deploy server")
                 }
