@@ -1,0 +1,486 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ChangeToMethod" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="ChangeToOperator" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="ClashingGetters" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="ClashingTraitMethods" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="DelegatesTo" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GWTRemoteServiceAsyncCheck" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GWTStyleCheck" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GrDeprecatedAPIUsage" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GrEqualsBetweenInconvertibleTypes" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GrFinalVariableAccess" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GrMethodMayBeStatic" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GrPackage" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GrReassignedInClosureLocalVar" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GrUnnecessaryAlias" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GrUnnecessaryDefModifier" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GrUnnecessaryPublicModifier" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GrUnnecessarySemicolon" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GrUnresolvedAccess" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyAccessToStaticFieldLockedOnInstance" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyAccessibility" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyAssignabilityCheck" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyAssignmentCanBeOperatorAssignment" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="ignoreLazyOperators" value="true" />
+        <option name="ignoreObscureOperators" value="false" />
+      </scope>
+      <option name="ignoreLazyOperators" value="true" />
+      <option name="ignoreObscureOperators" value="false" />
+    </inspection_tool>
+    <inspection_tool class="GroovyAssignmentToForLoopParameter" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyAssignmentToMethodParameter" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyBreak" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyBusyWait" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyConditional" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyConditionalCanBeConditionalCall" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyConditionalCanBeElvis" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyConditionalWithIdenticalBranches" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyConstantConditional" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyConstantIfStatement" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyConstantNamingConvention" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_regex" value="[A-Z\d]*" />
+        <option name="m_minLength" value="4" />
+        <option name="m_maxLength" value="32" />
+      </scope>
+      <option name="m_regex" value="[A-Z\d]*" />
+      <option name="m_minLength" value="4" />
+      <option name="m_maxLength" value="32" />
+    </inspection_tool>
+    <inspection_tool class="GroovyConstructorNamedArguments" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyContinue" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyContinueOrBreakFromFinallyBlock" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyDivideByZero" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyDocCheck" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyDoubleCheckedLocking" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="ignoreOnVolatileVariables" value="false" />
+      </scope>
+      <option name="ignoreOnVolatileVariables" value="false" />
+    </inspection_tool>
+    <inspection_tool class="GroovyDoubleNegation" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyDuplicateSwitchBranch" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyEmptyCatchBlock" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyEmptyFinallyBlock" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyEmptyStatementBody" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyEmptySyncBlock" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyEmptyTryBlock" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyFallthrough" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyGStringKey" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyIfStatementWithIdenticalBranches" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyIfStatementWithTooManyBranches" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_limit" value="3" />
+      </scope>
+      <option name="m_limit" value="3" />
+    </inspection_tool>
+    <inspection_tool class="GroovyInArgumentCheck" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyInfiniteLoopStatement" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyInfiniteRecursion" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyInstanceMethodNamingConvention" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+        <option name="m_minLength" value="4" />
+        <option name="m_maxLength" value="32" />
+      </scope>
+      <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+      <option name="m_minLength" value="4" />
+      <option name="m_maxLength" value="32" />
+    </inspection_tool>
+    <inspection_tool class="GroovyInstanceVariableNamingConvention" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_regex" value="m_[a-z][A-Za-z\d]*" />
+        <option name="m_minLength" value="1" />
+        <option name="m_maxLength" value="32" />
+      </scope>
+      <option name="m_regex" value="m_[a-z][A-Za-z\d]*" />
+      <option name="m_minLength" value="1" />
+      <option name="m_maxLength" value="32" />
+    </inspection_tool>
+    <inspection_tool class="GroovyLabeledStatement" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyListGetCanBeKeyedAccess" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyListSetCanBeKeyedAccess" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyLocalVariableNamingConvention" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+        <option name="m_minLength" value="4" />
+        <option name="m_maxLength" value="32" />
+      </scope>
+      <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+      <option name="m_minLength" value="4" />
+      <option name="m_maxLength" value="32" />
+    </inspection_tool>
+    <inspection_tool class="GroovyLoopStatementThatDoesntLoop" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyMapGetCanBeKeyedAccess" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyMapPutCanBeKeyedAccess" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyMethodParameterCount" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_limit" value="5" />
+      </scope>
+      <option name="m_limit" value="5" />
+    </inspection_tool>
+    <inspection_tool class="GroovyMethodWithMoreThanThreeNegations" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyMissingReturnStatement" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyMultipleReturnPointsPerMethod" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_limit" value="1" />
+      </scope>
+      <option name="m_limit" value="1" />
+    </inspection_tool>
+    <inspection_tool class="GroovyNegatedConditional" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyNegatedIf" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyNestedAssignment" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyNestedConditional" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyNestedSwitch" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyNestedSynchronizedStatement" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyNonShortCircuitBoolean" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyNotifyWhileNotSynchronized" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyOctalInteger" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyOverlyComplexArithmeticExpression" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_limit" value="3" />
+      </scope>
+      <option name="m_limit" value="3" />
+    </inspection_tool>
+    <inspection_tool class="GroovyOverlyComplexBooleanExpression" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_limit" value="3" />
+      </scope>
+      <option name="m_limit" value="3" />
+    </inspection_tool>
+    <inspection_tool class="GroovyOverlyComplexMethod" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_limit" value="10" />
+      </scope>
+      <option name="m_limit" value="10" />
+    </inspection_tool>
+    <inspection_tool class="GroovyOverlyLongMethod" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_limit" value="30" />
+      </scope>
+      <option name="m_limit" value="30" />
+    </inspection_tool>
+    <inspection_tool class="GroovyOverlyNestedMethod" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_limit" value="5" />
+      </scope>
+      <option name="m_limit" value="5" />
+    </inspection_tool>
+    <inspection_tool class="GroovyParameterNamingConvention" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+        <option name="m_minLength" value="4" />
+        <option name="m_maxLength" value="32" />
+      </scope>
+      <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+      <option name="m_minLength" value="4" />
+      <option name="m_maxLength" value="32" />
+    </inspection_tool>
+    <inspection_tool class="GroovyPointlessArithmetic" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyPointlessBoolean" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyPublicFieldAccessedInSynchronizedContext" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyRangeTypeCheck" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyResultOfAssignmentUsed" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyResultOfIncrementOrDecrementUsed" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyResultOfObjectAllocationIgnored" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyReturnFromClosureCanBeImplicit" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyReturnFromFinallyBlock" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovySillyAssignment" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyStaticMethodNamingConvention" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+        <option name="m_minLength" value="4" />
+        <option name="m_maxLength" value="32" />
+      </scope>
+      <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+      <option name="m_minLength" value="4" />
+      <option name="m_maxLength" value="32" />
+    </inspection_tool>
+    <inspection_tool class="GroovyStaticVariableNamingConvention" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="m_regex" value="s_[a-z][A-Za-z\d]*" />
+        <option name="m_minLength" value="4" />
+        <option name="m_maxLength" value="32" />
+      </scope>
+      <option name="m_regex" value="s_[a-z][A-Za-z\d]*" />
+      <option name="m_minLength" value="4" />
+      <option name="m_maxLength" value="32" />
+    </inspection_tool>
+    <inspection_tool class="GroovySwitchStatementWithNoDefault" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovySynchronizationOnNonFinalField" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovySynchronizationOnThis" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovySynchronizationOnVariableInitializedWithLiteral" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovySynchronizedMethod" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovySystemRunFinalizersOnExit" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyThreadStopSuspendResume" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyThrowFromFinallyBlock" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyTrivialConditional" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyTrivialIf" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyUncheckedAssignmentOfMemberOfRawType" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyUnconditionalWait" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyUnnecessaryContinue" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyUnnecessaryReturn" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyUnreachableStatement" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyUnsynchronizedMethodOverridesSynchronizedMethod" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyUntypedAccess" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyUnusedAssignment" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyUnusedCatchParameter" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyUnusedDeclaration" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyUnusedIncOrDec" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyVariableCanBeFinal" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyVariableNotAssigned" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyWaitCallNotInLoop" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyWaitWhileNotSynchronized" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GroovyWhileLoopSpinsOnField" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true">
+        <option name="ignoreNonEmtpyLoops" value="false" />
+      </scope>
+      <option name="ignoreNonEmtpyLoops" value="false" />
+    </inspection_tool>
+    <inspection_tool class="GspInspection" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GwtClientClassFromNonInheritedModule" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtCssResourceErrors" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtInconsistentI18nInterface" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtInconsistentSerializableClass" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtIncorrectArgumentOfGwtCreateMethod" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtJavaFromJSMethodCalls" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtJavaScriptReferences" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtMethodWithParametersInConstantsInterface" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtOverlayTypeRestrictionsViolated" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtServiceNotRegistered" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtToHtmlReferences" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtUiBinderErrors" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtUiFieldErrors" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtUiHandlerErrors" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GwtUiXmlReferences" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="InvalidI18nProperty" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="JavaStylePropertiesInvocation" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="NewGroovyClassNamingConvention" enabled="true" level="TYPO" enabled_by_default="false">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="NewInstanceOfSingleton" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="NonJREEmulationClassesInClientCode" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="NonSerializableServiceParameters" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SecondUnsafeCall" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="SingletonConstructor" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="TypeCustomizer" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="UnnecessaryQualifiedReference" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Production" level="TYPO" enabled="true" />
+    </inspection_tool>
+  </profile>
+</component>
