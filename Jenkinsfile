@@ -1,7 +1,7 @@
 #!/groovy
 
 // 库引用
-@library('jenkinslib') _
+@Library('jenkinslib') _
 
 // 方法引用
 def build = new org.devops.build()
