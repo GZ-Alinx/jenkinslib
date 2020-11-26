@@ -1,7 +1,7 @@
 #!/groovy
 
 // 库引用
-@Library('jenkinslib@master') _
+@Library('jenkinslib@master')
 
 
 // 方法引用
