@@ -1,7 +1,7 @@
 #!/groovy
 
 // 库引用
-@Library('jenkinslib')
+@Library('jenkinslib') // jenkins系统设置中添加配置后引用
 
 
 // 方法引用
@@ -23,36 +23,29 @@ pipeline {
 
     // 代码获取阶段
     stages {
-        stage("代码获取"){
+        stage("代码获取") {
             // 步骤
-            steps{
-                script{
+            steps {
+                script {
                     println("code get")
                 }
             }
         }
-    }
-
-    // 打包阶段
-    stages {
-        stage("构建打包"){
+        // 打包阶段
+        stage("构建打包") {
             // 步骤
-            steps{
-                script{
+            steps {
+                script {
                     println("build package")
                 }
             }
         }
-    }
-
-    // 发布阶段
-    stages {
-        stage("deploy"){
+        // 发布阶段
+        stage("deploy") {
             // 步骤
-            steps{
-                script{
-//                    build.Build(buildType,buildShell)
-                    deploy.AnsibleDeploy("${deployHosts}","-m ping")
+            steps {
+                script {
+                    deploy.AnsibleDeploy("${deployHosts}", "-m ping")
                     println("deploy server")
                 }
             }
