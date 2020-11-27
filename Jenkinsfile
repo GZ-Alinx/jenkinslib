@@ -12,6 +12,8 @@ def deploy = new org.devops.deploy()
 String buildType = env.BuildType
 String buildShell = env.BuildShell
 String deployHosts = env.deployHosts
+String SRC = env.src
+String DEST = env.dest
 
 
 
@@ -53,8 +55,17 @@ pipeline {
                     println("args ----------------------------------")
 //                    build.build("${buildType}","${buildShell}")
 //                  deploy.AnsibleDeploy("${deployHosts}", "-m ping")
+
                     deploy.AnsibleDeploy("-m ping",deployHosts)
                     println("deploy server")
+                }
+            }
+        }
+        stage("scpDeploy") {
+            steps {
+                script{
+                    deploy.ScpDeploy(SRC,DEST)
+                    println("scp Success")
                 }
             }
         }

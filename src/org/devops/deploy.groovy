@@ -5,3 +5,7 @@ package org.devops
 def AnsibleDeploy(func,hosts){
     sh "ansible  ${func} ${hosts}"
 }
+
+def ScpDeploy(src,dest){
+    sh "sudo scp -r ${url} ${dest}"
+}
