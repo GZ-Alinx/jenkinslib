@@ -51,7 +51,6 @@ pipeline {
                     println(deployHosts)
                     println(buildType)
                     println("args ----------------------------------")
-
                     build.build("${buildType}","${buildShell}")
                     deploy.AnsibleDeploy("${deployHosts}", "-m ping")
                     println("deploy server")
