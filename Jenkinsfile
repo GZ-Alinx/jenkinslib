@@ -15,6 +15,9 @@ String deployHosts = env.deployHosts
 String SrcUrl = env.src
 String DEST = env.dest
 
+// 参数化构建配置这两个选线参数
+String MODULE = env.module
+String ARGS = env.args
 
 
 
@@ -56,7 +59,7 @@ pipeline {
 //                    build.build("${buildType}","${buildShell}")
 //                  deploy.AnsibleDeploy("${deployHosts}", "-m ping")
 
-                    deploy.AnsibleDeploy("-m ping",deployHosts)
+                    deploy.AnsibleDeploy(deployHosts,MODULE,ARGS)
                     println("deploy server")
                 }
             }

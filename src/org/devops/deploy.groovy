@@ -1,11 +1,20 @@
 package org.devops
 
-// 部署方法
 
-def AnsibleDeploy(func,hosts){
-    sh "ansible  ${func} ${hosts}"
+// 路径查询
+def FindFlie(){
+    println("Find File")
 }
 
+
+// 部署方法
+
+// Ansible执行
+def AnsibleDeploy(module,hosts,args){
+    sh "ansible ${hosts} -m ${module} -a '${args}'"
+}
+
+// scp拷贝
 def ScpDeploy(SrcUrl,dest){
     sh "sudo scp -r ${SrcUrl} ${dest}"
 }
