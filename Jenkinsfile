@@ -49,7 +49,7 @@ pipeline {
             }
         }
         // scp拷贝
-        stage("scpDeploy") {
+        stage("文件拷贝") {
             steps {
                 script{
                     deploy.ScpDeploy(SrcUrl,DEST)
@@ -58,7 +58,7 @@ pipeline {
             }
         }
         // Ansible模块
-        stage("deploy") {
+        stage("部署发布") {
             steps {
                 script {
                     deploy.AnsibleDeploy(deployServices,MODULE,ARGS)
@@ -66,6 +66,13 @@ pipeline {
                 }
             }
         }
-
+        // 健康检查
+        stage("健康检查") {
+            steps {
+                script {
+                    println("健康检查")
+                }
+            }
+        }
     }
 }
