@@ -13,6 +13,7 @@ def FindFlie(){
 // Ansible执行
 def AnsibleDeploy(deployServices,module,args){
     sh "ansible ${deployServices} -m ${module} -a '${args}'"
+    return
 }
 
 // scp拷贝
