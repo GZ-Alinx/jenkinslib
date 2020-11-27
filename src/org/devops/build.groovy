@@ -2,46 +2,36 @@ package org.devops
 
 
 // 构建方法 构建类型
-def build(types, shell){
-    println(tyeps,shell)
+def build(BuildType, shell){
+    ret = println(BuildTyep,shell)
+    return ret
 }
 
 
+// 构建类型
 
+// 定义一个buildTools的map
+// def buildTools = ["mvn":"M2","ant":"ANT","gradle":"GRADLE","npm":"NPM"]
+
+//def Build(buildType,buildShell){
 //
-//
-//def Build(BuildType, BuildShell){
+//    // 定义一个buildTools的map
 //    def buildTools = ["mvn":"M2","ant":"ANT","gradle":"GRADLE","npm":"NPM"]
-////    BuildHome = tool buildTools[BuildType]
-//    println("当前构建的类型为: ${BuildType}")
-//    println("非常好，已经调用到共享库方法了")
-//    if ("${BuildType}" == "npm"){
 //
-//    }else if ("${BuildType}" == "maven"){
-//        println("maven")
-//        sh """
-//        export NODE_HOME=${BuildHome}
-//        export PATH=\$NODE_HOME/bin:/$PATH
-//        ${BuildHome}/bin/${BuildType} ${BuildShell}"""
-//    }else if ("${BuildType}" == "gradle"){
-//        println("gradle")
-//        sh """
-//        export NODE_HOME=${BuildHome}
-//        export PATH=\$NODE_HOME/bin:/$PATH
-//        ${BuildHome}/bin/${BuildType} ${BuildShell}"""
-//    }else if ("${BuildType}" == "ant"){
-//        println("ant")
+//    println("当前选择的构建类型是${buildType}")
+//    // 获取buildHome
+//    buildHome = tool buildTools[buildType]
 //
+//    // 判断是否为NPM，因为NPM需要加载一次环境变量
+//    if ("${buildType}"=="npm"){
 //        sh """
-//        export NODE_HOME=${BuildHome}
-//        export PATH=\$NODE_HOME/bin:/$PATH
-//        ${BuildHome}/bin/${BuildType} ${BuildShell}"""
-//    }else {
-//        sh "${BuildHome}/bin/${BuildType} ${BuildShell}"
+//          export NPM_HOME=${buildHome}
+//          export PATH=\$PATH:\$NPM_HOME/bin
+//          ${buildHome}/bin/${buildType} ${buildShell}
+//      """
+//    }else{
+//        // 执行打包
+//        sh "${buildHome}/bin/${buildType} ${buildShell}"
 //    }
-
-    // 适用于参数化构建
-
 //}
-
 
