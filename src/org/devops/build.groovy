@@ -2,8 +2,8 @@ package org.devops
 
 
 // 构建方法 构建类型
-def build(){
-    println("build ok")
+def build(types, shell){
+    println(tyeps,shell)
 }
 
 
