@@ -53,7 +53,7 @@ pipeline {
                 script {
                     println("args ----------------------------------")
                     println(buildShell)
-                    println(deployHosts)
+                    println(deployServices)
                     println(buildType)
                     println("args ----------------------------------")
 //                    build.build("${buildType}","${buildShell}")
