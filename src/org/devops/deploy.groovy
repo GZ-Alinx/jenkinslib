@@ -11,7 +11,7 @@ def FindFlie(){
 // 部署方法
 
 // Ansible执行
-def AnsibleDeploy(module,deployServices,args){
+def AnsibleDeploy(deployServices,module,args){
     sh "ansible ${deployServices} -m ${module} -a \'${args}\'"
 }
 

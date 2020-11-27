@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1ccdb33a-f19d-4734-9059-fd62ae5e6470" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/devops/deploy.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/devops/deploy.groovy" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <workItem from="1606395466733" duration="26000" />
       <workItem from="1606395503346" duration="21000" />
       <workItem from="1606395533516" duration="24000" />
-      <workItem from="1606395566896" duration="18056000" />
+      <workItem from="1606395566896" duration="18159000" />
     </task>
     <task id="LOCAL-00001" summary="library change Libaray">
       <created>1606371456269</created>
@@ -292,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606471322061</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="deploy Services Ansible 主机分组">
+      <created>1606471386691</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1606471386691</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
