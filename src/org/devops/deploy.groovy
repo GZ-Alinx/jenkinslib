@@ -11,8 +11,8 @@ def FindFlie(){
 // 部署方法
 
 // Ansible执行
-def AnsibleDeploy(module,hosts,args){
-    sh "ansible ${hosts} -m ${module} -a \'${args}\'"
+def AnsibleDeploy(module,deployServices,args){
+    sh "ansible ${deployServices} -m ${module} -a \'${args}\'"
 }
 
 // scp拷贝

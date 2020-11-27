@@ -11,7 +11,7 @@ def deploy = new org.devops.deploy()
 // 获取jenkins内部参数变量
 String buildType = env.BuildType
 String buildShell = env.BuildShell
-String deployHosts = env.deployHosts
+String deployServices = env.deployServices
 String SrcUrl = env.src
 String DEST = env.dest
 
@@ -59,7 +59,7 @@ pipeline {
 //                    build.build("${buildType}","${buildShell}")
 //                  deploy.AnsibleDeploy("${deployHosts}", "-m ping")
 
-                    deploy.AnsibleDeploy(deployHosts,MODULE,ARGS)
+                    deploy.AnsibleDeploy(deployServices,MODULE,ARGS)
                     println("deploy server")
                 }
             }
