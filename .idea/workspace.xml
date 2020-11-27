@@ -59,7 +59,7 @@
       <workItem from="1606395466733" duration="26000" />
       <workItem from="1606395503346" duration="21000" />
       <workItem from="1606395533516" duration="24000" />
-      <workItem from="1606395566896" duration="10714000" />
+      <workItem from="1606395566896" duration="11035000" />
     </task>
     <task id="LOCAL-00001" summary="library change Libaray">
       <created>1606371456269</created>
@@ -138,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606437949155</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="build func test">
+      <created>1606460786018</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606460786018</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +168,7 @@
     <MESSAGE value="library change Libaray" />
     <MESSAGE value="添加deploy方法 Ansible" />
     <MESSAGE value="更新lib库配置，Jenkins系统配置中添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新lib库配置，Jenkins系统配置中添加" />
+    <MESSAGE value="build func test" />
+    <option name="LAST_COMMIT_MESSAGE" value="build func test" />
   </component>
 </project>
