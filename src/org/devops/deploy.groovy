@@ -24,5 +24,5 @@ def ScpDeploy(SrcUrl,dest){
 
 // kubernetes 发布
 def KubernetesDeploy(){
-    println("K8s deploy")
+    println("K8s deploy ")
 }
