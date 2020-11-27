@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ccdb33a-f19d-4734-9059-fd62ae5e6470" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       <workItem from="1606395466733" duration="26000" />
       <workItem from="1606395503346" duration="21000" />
       <workItem from="1606395533516" duration="24000" />
-      <workItem from="1606395566896" duration="5751000" />
+      <workItem from="1606395566896" duration="6458000" />
     </task>
     <task id="LOCAL-00001" summary="library change Libaray">
       <created>1606371456269</created>
@@ -124,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606410227806</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="更新lib库配置，Jenkins系统配置中添加">
+      <created>1606410904964</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606410904964</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="library change Libaray" />
     <MESSAGE value="添加deploy方法 Ansible" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加deploy方法 Ansible" />
+    <MESSAGE value="更新lib库配置，Jenkins系统配置中添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新lib库配置，Jenkins系统配置中添加" />
   </component>
 </project>
