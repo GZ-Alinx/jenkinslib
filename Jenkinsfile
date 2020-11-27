@@ -52,7 +52,7 @@ pipeline {
                     println(buildType)
                     println("args ----------------------------------")
 
-                    build.build("mvn","run build")
+                    build.build("${buildType}","${buildShell}")
                     deploy.AnsibleDeploy("${deployHosts}", "-m ping")
                     println("deploy server")
                 }
