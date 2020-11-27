@@ -7,12 +7,8 @@ package org.devops
 // gradle build
 def Gradle(shell){
     println("use gradle build")
-    sh """
-        GRADLE_HOME=/usr/local/gradle/
-        PATH=$PATH:$HOME/bin:$GRADLE_HOME/bin
-        export PATH
-        gradle ${shell}
-        """
+    GRADLE = "/usr/local/gradle/bin/"
+    sh """${GRADLE}/gradle ${shell}"""
     // gradle clear bootJar --stacktace --info --debug 注意参数填写
 }
 

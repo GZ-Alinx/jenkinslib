@@ -59,7 +59,7 @@
       <workItem from="1606395466733" duration="26000" />
       <workItem from="1606395503346" duration="21000" />
       <workItem from="1606395533516" duration="24000" />
-      <workItem from="1606395566896" duration="21611000" />
+      <workItem from="1606395566896" duration="21940000" />
     </task>
     <task id="LOCAL-00001" summary="library change Libaray">
       <created>1606371456269</created>
@@ -362,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606474838789</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="build add">
+      <created>1606474993577</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1606474993577</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
