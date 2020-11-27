@@ -2,6 +2,6 @@ package org.devops
 
 // 部署方法
 
-def AnsibleDeploy(hosts,func){
+def AnsibleDeploy(func,hosts){
     sh "ansible  ${func} ${hosts}"
 }
