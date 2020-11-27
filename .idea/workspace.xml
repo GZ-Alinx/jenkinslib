@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ccdb33a-f19d-4734-9059-fd62ae5e6470" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/devops/build.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/devops/build.groovy" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <workItem from="1606395466733" duration="26000" />
       <workItem from="1606395503346" duration="21000" />
       <workItem from="1606395533516" duration="24000" />
-      <workItem from="1606395566896" duration="12393000" />
+      <workItem from="1606395566896" duration="12571000" />
     </task>
     <task id="LOCAL-00001" summary="library change Libaray">
       <created>1606371456269</created>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606462356958</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="build func test">
+      <created>1606462445105</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1606462445105</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

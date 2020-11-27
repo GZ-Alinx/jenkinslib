@@ -3,8 +3,7 @@ package org.devops
 
 // 构建方法 构建类型
 def build(BuildType, shell){
-    ret = println(BuildTyep,shell)
-    return ret
+    println(BuildTyep,shell)
 }
 
 
