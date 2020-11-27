@@ -9,8 +9,8 @@ def build = new org.devops.build()
 def deploy = new org.devops.deploy()
 
 // 获取jenkins内部参数变量
-String buildType = env.buildType
-String buildShell = env.buidlShell
+String buildType = env.BuildType
+String buildShell = env.BuildShell
 String deployHosts = env.deployHosts
 
 
@@ -28,6 +28,7 @@ pipeline {
             steps {
                 script {
                     println("code get")
+
                 }
             }
         }
@@ -46,6 +47,11 @@ pipeline {
             steps {
                 script {
                     println("args ----------------------------------")
+                    println(buildShell)
+                    println(deployHosts)
+                    println(buildType)
+                    println("args ----------------------------------")
+
                     build.build("mvn","run build")
                     deploy.AnsibleDeploy("${deployHosts}", "-m ping")
                     println("deploy server")
