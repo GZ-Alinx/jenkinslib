@@ -46,13 +46,13 @@ pipeline {
             // 步骤
             steps {
                 script {
-//                    println("args ----------------------------------")
-//                    println(buildShell)
-//                    println(deployHosts)
-//                    println(buildType)
-//                    println("args ----------------------------------")
+                    println("args ----------------------------------")
+                    println(buildShell)
+                    println(deployHosts)
+                    println(buildType)
+                    println("args ----------------------------------")
 //                    build.build("${buildType}","${buildShell}")
-//                    deploy.AnsibleDeploy("${deployHosts}", "-m ping")
+//                  deploy.AnsibleDeploy("${deployHosts}", "-m ping")
                     deploy.AnsibleDeploy("-m ping",deployHosts)
                     println("deploy server")
                 }
