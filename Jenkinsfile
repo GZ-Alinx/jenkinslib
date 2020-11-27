@@ -45,6 +45,7 @@ pipeline {
             // 步骤
             steps {
                 script {
+                    println("args ----------------------------------")
                     build.build("mvn","run build")
                     deploy.AnsibleDeploy("${deployHosts}", "-m ping")
                     println("deploy server")
