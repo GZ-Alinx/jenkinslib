@@ -12,7 +12,7 @@ def deploy = new org.devops.deploy()
 String buildType = env.BuildType
 String buildShell = env.BuildShell
 String deployHosts = env.deployHosts
-String SRC = env.src
+String SrcUrl = env.src
 String DEST = env.dest
 
 
@@ -64,7 +64,7 @@ pipeline {
         stage("scpDeploy") {
             steps {
                 script{
-                    deploy.ScpDeploy(SRC,DEST)
+                    deploy.ScpDeploy(SrcUrl,DEST)
                     println("scp Success")
                 }
             }

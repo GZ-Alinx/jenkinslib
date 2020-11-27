@@ -6,6 +6,6 @@ def AnsibleDeploy(func,hosts){
     sh "ansible  ${func} ${hosts}"
 }
 
-def ScpDeploy(src,dest){
-    sh "sudo scp -r ${url} ${dest}"
+def ScpDeploy(SrcUrl,dest){
+    sh "sudo scp -r ${SrcUrl} ${dest}"
 }
