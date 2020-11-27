@@ -42,7 +42,9 @@ pipeline {
             // 步骤
             steps {
                 script {
-                    println("build package")
+                    println("Start build package")
+                    build.BUILD(buildType,buildShell)
+
                 }
             }
         }
