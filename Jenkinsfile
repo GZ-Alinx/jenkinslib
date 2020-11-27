@@ -33,7 +33,7 @@ pipeline {
             steps {
                 script {
                     println("code get")
-
+                    checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'f9c9f149-0c46-4cf2-9586-37f39af51bcb', url: 'http://192.168.56.101:8888/root/cicd-services']]])
                 }
             }
         }
