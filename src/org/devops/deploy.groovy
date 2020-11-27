@@ -12,12 +12,10 @@ def FindFlie(){
 
 // Ansible执行
 def AnsibleDeploy(module,hosts,args){
-    sh "ansible ${hosts} -m ${module} -a '${args}'"
-    return
+    sh "ansible ${hosts} -m ${module} -a \'${args}\'"
 }
 
 // scp拷贝
 def ScpDeploy(SrcUrl,dest){
     sh "sudo scp -r ${SrcUrl} ${dest}"
-    return
 }
