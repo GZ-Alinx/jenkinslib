@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ccdb33a-f19d-4734-9059-fd62ae5e6470" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/devops/build.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/devops/build.groovy" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +59,7 @@
       <workItem from="1606395466733" duration="26000" />
       <workItem from="1606395503346" duration="21000" />
       <workItem from="1606395533516" duration="24000" />
-      <workItem from="1606395566896" duration="21447000" />
+      <workItem from="1606395566896" duration="21611000" />
     </task>
     <task id="LOCAL-00001" summary="library change Libaray">
       <created>1606371456269</created>
@@ -356,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606472774694</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="build add">
+      <created>1606474838789</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1606474838789</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +389,7 @@
     <MESSAGE value="deploy Services Ansible 主机分组" />
     <MESSAGE value="预备k8s方法" />
     <MESSAGE value="ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready" />
+    <MESSAGE value="build add" />
+    <option name="LAST_COMMIT_MESSAGE" value="build add" />
   </component>
 </project>

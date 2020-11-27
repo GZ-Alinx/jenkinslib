@@ -6,6 +6,7 @@ package org.devops
 
 // gradle build
 def Gradle(shell){
+    println("use gradle build")
     sh """
         GRADLE_HOME=/usr/local/gradle/
         PATH=$PATH:$HOME/bin:$GRADLE_HOME/bin
@@ -17,6 +18,7 @@ def Gradle(shell){
 
 
 def Maven(shell){
+    println("use maven build")
     sh """
         MAVEN_HOME=/usr/local/maven/
         PATH=$PATH:$HOME/bin:$MAVEN_HOME/bin
@@ -27,6 +29,7 @@ def Maven(shell){
 }
 
 def Ant(shell){
+    println("use ant build")
     sh """
         ANT_HOME=/usr/local/ant/
         PATH=$PATH:$HOME/bin:$ANT_HOME/bin
@@ -38,6 +41,7 @@ def Ant(shell){
 
 
 def NPM(shell){
+    println("use NPM build")
     sh """
         NODE_HOME=/usr/local/nodejs/
         PATH=$PATH:$HOME/bin:$NODE_HOME/bin
