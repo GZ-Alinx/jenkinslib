@@ -2,12 +2,19 @@ package org.devops
 
 
 // 构建方法 构建类型
-def Build(BuildType, BuildShell){
+def build(){
+    println("build ok")
+}
 
-    def buildTools = ["mvn":"M2","ant":"ANT","gradle":"GRADLE","npm":"NPM"]
-//    BuildHome = tool buildTools[BuildType]
-    println("当前构建的类型为: ${BuildType}")
-    println("非常好，已经调用到共享库方法了")
+
+
+//
+//
+//def Build(BuildType, BuildShell){
+//    def buildTools = ["mvn":"M2","ant":"ANT","gradle":"GRADLE","npm":"NPM"]
+////    BuildHome = tool buildTools[BuildType]
+//    println("当前构建的类型为: ${BuildType}")
+//    println("非常好，已经调用到共享库方法了")
 //    if ("${BuildType}" == "npm"){
 //
 //    }else if ("${BuildType}" == "maven"){
