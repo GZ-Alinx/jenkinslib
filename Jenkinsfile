@@ -48,15 +48,6 @@ pipeline {
                 }
             }
         }
-        // Ansible模块
-        stage("deploy") {
-            steps {
-                script {
-                    deploy.AnsibleDeploy(deployServices,MODULE,ARGS)
-                    println("deploy server")
-                }
-            }
-        }
         // scp拷贝
         stage("scpDeploy") {
             steps {
@@ -66,5 +57,15 @@ pipeline {
                 }
             }
         }
+        // Ansible模块
+        stage("deploy") {
+            steps {
+                script {
+                    deploy.AnsibleDeploy(deployServices,MODULE,ARGS)
+                    println("deploy server")
+                }
+            }
+        }
+
     }
 }
