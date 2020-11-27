@@ -21,3 +21,8 @@ def ScpDeploy(SrcUrl,dest){
     sh "sudo scp -r ${SrcUrl} ${dest}"
     return "Success"
 }
+
+// kubernetes 发布
+def KubernetesDeploy(){
+    println("K8s deploy")
+}

@@ -46,24 +46,16 @@ pipeline {
                 }
             }
         }
-        // 发布阶段
+        // Ansible模块
         stage("deploy") {
-            // 步骤
             steps {
                 script {
-                    println("args ----------------------------------")
-                    println(buildShell)
-                    println(deployServices)
-                    println(buildType)
-                    println("args ----------------------------------")
-//                    build.build("${buildType}","${buildShell}")
-//                  deploy.AnsibleDeploy("${deployHosts}", "-m ping")
-
                     deploy.AnsibleDeploy(deployServices,MODULE,ARGS)
                     println("deploy server")
                 }
             }
         }
+        // scp拷贝
         stage("scpDeploy") {
             steps {
                 script{
