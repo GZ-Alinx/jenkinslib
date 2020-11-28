@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1ccdb33a-f19d-4734-9059-fd62ae5e6470" name="Default Changelist" comment="添加nodejs 方法部署">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/devops/build.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/devops/build.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,14 +76,7 @@
       <workItem from="1606395503346" duration="21000" />
       <workItem from="1606395533516" duration="24000" />
       <workItem from="1606395566896" duration="28017000" />
-      <workItem from="1606563022472" duration="1848000" />
-    </task>
-    <task id="LOCAL-00003" summary="添加deploy方法 Ansible">
-      <created>1606407737659</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1606407737659</updated>
+      <workItem from="1606563022472" duration="2555000" />
     </task>
     <task id="LOCAL-00004" summary="添加deploy方法 Ansible">
       <created>1606408221354</created>
@@ -421,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606566977545</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="添加nodejs 方法部署">
+      <created>1606567206040</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1606567206040</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,10 +465,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="749" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606563057950" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606567059684">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606567257812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606567059684" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606567257812" />
+    <state x="763" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606567201967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="763" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606567201967" />
     <state x="751" y="419" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606567031096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
