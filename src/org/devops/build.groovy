@@ -2,9 +2,16 @@ package org.devops
 
 /*
 所有的组件都装在/usr/local/ 目录下
+/usr/local/gradle/
+/usr/local/maven/
+/usr/local/ant/
+/usr/local/nodejs/
+
+实例
+tar -xf node-v10.14.1-linux-x64.tar.gz -C /usr/local/  && ln -sv node-v10.14.1-linux-x64 nodejs
 */
 
-// gradle build
+// 可用
 def Gradle(shell){
     println("use gradle build")
     GRADLE = "/usr/local/gradle/bin/"
@@ -12,18 +19,15 @@ def Gradle(shell){
     // gradle clear bootJar --stacktace --info --debug 注意参数填写
 }
 
-
+// 可用
 def Maven(shell){
     println("use maven build")
-    sh """
-        MAVEN_HOME=/usr/local/maven/
-        PATH=$PATH:$HOME/bin:$MAVEN_HOME/bin
-        export PATH
-        mvn ${shell}
-        """
+    mvn="/usr/local/maven/bin/"
+    sh """${mvn}/mvn ${shell}"""
     //  mvn clean install 注意参数填写
 }
 
+// 未测试过
 def Ant(shell){
     println("use ant build")
     sh """
@@ -35,15 +39,17 @@ def Ant(shell){
     // 注意参数填写
 }
 
-
+// 可用
 def NODEJS(shell){
-    println("use NPM build")
-    NPM = "/usr/local/node-v10.14.1-linux-x64/bin/"
+    println("use nodejs build")
+    NPM = "/usr/local/nodejs/bin/"
     sh """${NPM}/npm ${shell}"""
     // npm install && npm build  注意参数填写
 }
 
 
+
+// 构建选择，传递构建指令
 def BUILD(Btype,shell) {
     if (Btype == "gradle"){
         Gradle(shell)
