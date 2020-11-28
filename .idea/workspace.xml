@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ccdb33a-f19d-4734-9059-fd62ae5e6470" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkinslib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinslib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/devops/build.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/devops/build.groovy" afterDir="false" />
-    </list>
+    <list default="true" id="1ccdb33a-f19d-4734-9059-fd62ae5e6470" name="Default Changelist" comment="添加nodejs 方法部署" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,14 +73,7 @@
       <workItem from="1606395503346" duration="21000" />
       <workItem from="1606395533516" duration="24000" />
       <workItem from="1606395566896" duration="28017000" />
-      <workItem from="1606563022472" duration="823000" />
-    </task>
-    <task id="LOCAL-00001" summary="library change Libaray">
-      <created>1606371456269</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1606371456269</updated>
+      <workItem from="1606563022472" duration="1475000" />
     </task>
     <task id="LOCAL-00002" summary="library change Libaray">
       <created>1606371539108</created>
@@ -404,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606484728055</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="添加nodejs 方法部署">
+      <created>1606565858383</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1606565858383</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +446,8 @@
     <MESSAGE value="ready" />
     <MESSAGE value="build add" />
     <MESSAGE value="自动打包部署" />
-    <option name="LAST_COMMIT_MESSAGE" value="自动打包部署" />
+    <MESSAGE value="添加nodejs 方法部署" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加nodejs 方法部署" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1606565652085">
