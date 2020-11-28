@@ -55,7 +55,7 @@ def BUILD(Btype,shell) {
         Ant(shell)
         return "${Btype} Success"
     }else if(Btype == "npm"){
-        NPM(shell)
+        NODEJS(shell)
         return "${Btype} Success"
     }
 }
