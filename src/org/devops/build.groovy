@@ -36,14 +36,10 @@ def Ant(shell){
 }
 
 
-def NPM(shell){
+def NODEJS(shell){
     println("use NPM build")
-    sh """
-        NODE_HOME=/usr/local/nodejs/
-        PATH=$PATH:$HOME/bin:$NODE_HOME/bin
-        export PATH
-        npm ${shell}
-        """
+    NPM = "/usr/local/node-v10.14.1-linux-x64/bin/"
+    sh """${NPM}/npm ${shell}"""
     // npm install && npm build  注意参数填写
 }
 
