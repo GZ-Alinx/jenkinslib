@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ccdb33a-f19d-4734-9059-fd62ae5e6470" name="Default Changelist" comment="添加nodejs 方法部署">
+    <list default="true" id="1ccdb33a-f19d-4734-9059-fd62ae5e6470" name="Default Changelist" comment="自动打包部署">
+      <change afterPath="$PROJECT_DIR$/bin/install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/devops/build.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/devops/build.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/devops/deploy.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/devops/deploy.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,14 +78,9 @@
       <workItem from="1606395503346" duration="21000" />
       <workItem from="1606395533516" duration="24000" />
       <workItem from="1606395566896" duration="28017000" />
-      <workItem from="1606563022472" duration="3873000" />
-    </task>
-    <task id="LOCAL-00005" summary="添加deploy方法 Ansible">
-      <created>1606408558568</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1606408558568</updated>
+      <workItem from="1606563022472" duration="8791000" />
+      <workItem from="1606741893375" duration="3190000" />
+      <workItem from="1607170178579" duration="775000" />
     </task>
     <task id="LOCAL-00006" summary="添加deploy方法 Ansible">
       <created>1606408660123</created>
@@ -421,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606569516692</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="完善npm部署">
+      <created>1606573175498</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1606573175498</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +454,8 @@
     <MESSAGE value="build add" />
     <MESSAGE value="自动打包部署" />
     <MESSAGE value="添加nodejs 方法部署" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加nodejs 方法部署" />
+    <MESSAGE value="完善npm部署" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善npm部署" />
   </component>
   <component name="WindowStateProjectService">
     <state x="684" y="342" key="#Notifications" timestamp="1606567054497">
@@ -477,5 +482,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="751" y="419" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606567031096" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1606576504497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606576504497" />
   </component>
 </project>

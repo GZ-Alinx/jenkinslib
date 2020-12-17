@@ -44,7 +44,6 @@ pipeline {
                 script {
                     println("Start build package----------------------------------")
                     build.BUILD(buildType,buildShell)
-
                 }
             }
         }

@@ -19,7 +19,9 @@ def AnsibleDeploy(deployServices,module,args){
 
 // scp拷贝
 def ScpDeploy(SrcUrl,dest){
-    sh "sudo scp -r ${SrcUrl} ${dest}"
+    sh """
+    if [ ! -d "/"];then sudo scp -r ${SrcUrl} ${dest};else ssh ${user}@${host}:${dest}
+    """
     println("scp Execution Success")
     return "Success"
 }
