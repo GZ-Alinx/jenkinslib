@@ -5,7 +5,7 @@ import hudson.model.*;
 
 // 文件中读取json到字符串
 def ToFile_read_json(filePath) {
-    def proMap = readJSON file:filePath
+    def propMap = readJSON file : filePath
     proMap.each {
         it.key + "=" + it.value
     }
